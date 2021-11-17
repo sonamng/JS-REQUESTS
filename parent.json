@@ -1,0 +1,478 @@
+{
+     "course": {
+          "id": "63",
+          "name": "Linux Use Karna Seekhein",
+          "logo": "http://google.com",
+          "notes": null,
+          "days_to_complete": "30",
+          "short_description": "Linux kaise use karna hai, iss course ko use kar kar seekhein.",
+          "type": "html",
+          "course_type": null,
+          "lang_available": [
+               "en"
+          ],
+          "exercises": [
+               {
+                    "id": "4586",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "introduction",
+                    "slug": "using-linux__introduction_md",
+                    "sequence_num": 0,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/introduction.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "Learn how to use linux\n\nIss course ko use kar kar hum linux karna seekhenge. Aapko ensure karna hai, aapko yeh commands theek se samajh aur use karna aata hai.\n\n\n\n`Terminal` ko dhang se use karne ke liye, `errors` ko sahi se padhna sabse jyada important hai.\n\nAgar aap `errors` ko theek se nahi padhoge, toh aap bahut jyada stuck feel karoge. `Error` ko English mei padh kar, hindi mei samjhiye, aur phir thoda time de yeh samajhne ke liye ki `terminal` aap se kya bolna chahta hoga.\n\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4587",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "cd",
+                    "slug": "using-linux__cd_md",
+                    "sequence_num": 100,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/cd.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "```bash\ncd\ncd -\ncd . \ncd ./Desktop\ncd /usr/bin\ncd ~/Desktop\ncd ~\n```\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4588",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "pwd",
+                    "slug": "using-linux__pwd_md",
+                    "sequence_num": 200,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/pwd.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "```bash\npwd\n```\n`pwd` se aapko `present working directory` pata lag jaati hai.\n\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4589",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "current-directory",
+                    "slug": "using-linux__current-directory_md",
+                    "sequence_num": 300,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/current-directory.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "`.` aapki current directory ko represent karti hai\n\n\n\n```bash\ncd .\n```\nAgar aap apne home folder mei ho, toh\nyeh dono commands same hi hai\n\n\n\n```bash\ncd ./Desktop\ncd Desktop\n```\nAisa isliye kyuki `.` current directory ko represent karta hai.\n\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4590",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "mkdir",
+                    "slug": "using-linux__mkdir_md",
+                    "sequence_num": 400,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/mkdir.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "```bash\nmkdir navgurukul\nmkdir directory/directory/directory\nmkdir -p directory/directory/directory\n```\n`-p` command se recursively folders ban jaate hai, agar woh folders exist nahi karte. `mkdir` sirf `tab` hi folders banata hai, jab jiss folder mei aap folder bana rahe hote hai, woh exist karta hai.\n\n\n\n```bash\nmkdir existing_dir_error\nmkdir existing_dir_error\n```\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4591",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "ls",
+                    "slug": "using-linux__ls_md",
+                    "sequence_num": 500,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/ls.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "ls\n\n```bash\nls\nls -l   # all details\nls -a   # all files\nls -h   # human readable size\nls -la\nls -lh\nls -ah\nls -lah\n```\n`-` use kar kar hum arguments dete hai command ko\n\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4592",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "permissions",
+                    "slug": "using-linux__permissions_md",
+                    "sequence_num": 600,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/permissions.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "Permissions\n\n```bash\nls -l ~/Desktop\n```\nYeh command `terminal` par `execute` karne se, aapko Desktop mei har `files` ki detail mil jayegi.\n\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4593",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "sudo",
+                    "slug": "using-linux__sudo_md",
+                    "sequence_num": 700,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/sudo.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "Sudo\n\n```bash\nsudo ls\nsudo apt install htop\n```\nsudo gives you permissions of `root`.\n\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4603",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "case",
+                    "slug": "using-linux__case_md",
+                    "sequence_num": 800,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/case.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "Case Sensitive\n\nBash case sensitive hai. \n\n\n\n```bash\nls\nLS\nLs\n```\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4600",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "nautilus",
+                    "slug": "using-linux__nautilus_md",
+                    "sequence_num": 900,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/nautilus.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "```bash\nnautilus .\nnautilus ~/Desktop\nnautilus /usr/bin\n```\n```bash\nnautilus not_existing_dir\n```\nuse this command to open the `file browser` or `file manager` on your machine directly from the `terminal`\n\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4602",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "apt",
+                    "slug": "using-linux__apt_md",
+                    "sequence_num": 1000,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/apt.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "```bash\napt install gedit\nsudo apt install gedit\nsudo apt purge gedit\nsudo apt search python\n```\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4607",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "echo",
+                    "slug": "using-linux__echo_md",
+                    "sequence_num": 1100,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/echo.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "```bash\necho \"hello\"\necho \"hello\"; echo \"hi\"\necho \"hi\"\n```\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4596",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "sleep",
+                    "slug": "using-linux__sleep_md",
+                    "sequence_num": 1200,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/sleep.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "```bash\nsleep 10\nsleep 3; echo \"hello\"\necho \"h\"; sleep 1; echo \"e\"; sleep 1; echo \"l\"; sleep 1; echo \"l\"; sleep 1; echo \"o\"\n```\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4606",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "wget",
+                    "slug": "using-linux__wget_md",
+                    "sequence_num": 1300,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/wget.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "wget\n\n```bash\nwget http://google.com\n```\n```\nwget -R http://navgurukul.org\n```\nisse aap Internet se `files` ya web pages download kar sakte hai\n\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4605",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "statements",
+                    "slug": "using-linux__statements_md",
+                    "sequence_num": 1400,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/statements.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "Aap multiple `statements` ko `;` use kar kar, ek saath likh sakte hai.\n\n\n\n```bash\necho \"hello\"; a=7; b=3; echo $a, \"is the value of a\"; echo $b, \"is the value of b\"\n```\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4599",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "bashrc",
+                    "slug": "using-linux__bashrc_md",
+                    "sequence_num": 1500,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/bashrc.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "Using .bashrc `file`\n\n`.bashrc` naam se ek `file` aapki `home directory` mei hogi. Jab bhi aap `terminal` ka naya session kholte ho, toh woh `file` `execute` ho jaati hai.\n\n\n\nAap uss `file` ko apne kisi bhi pasand ke `editor` mei khol kar, yeh content paste karein.\n\n\n\n```bash\necho \"I am learning programming\"\n```\nAb aap `file` ko `save` kar kar, close kar sakte hai.\n\n\n\nAb aap ek naya `terminal` ka window khol kar dekhein.\n\n\n\nAgar aapne galti nahi ki hogi, toh aapko apne `terminal` mei \"I am learning programming\" dikhega.\n\n\n\nDhyaan rakhein kyuki `file` `tab` `execute` hoti hai - jab naya `terminal` khulta hai toh, isliye, purane `terminal` mei koi change nahi dikhayi dega.\n\n\n\n`.bashrc` `file` mei aap koi aur bhi program call kar sakte hai. Jaise, yeh contents `.bashrc` `file` mei daalein:\n\n\n\n```bash\necho \"Aap 5 seconds ke liye, ek lambi saans le kar, relax mehsoos karein\"\necho \"5 Seconds\"\nsleep 1\necho \"4 Seconds\"\nsleep 1\necho \"3 Seconds\"\nsleep 1\necho \"2 Seconds\"\nsleep 1\necho \"1 Seconds\"\nsleep 1\necho \"Now, you can continue your work!\"\n```\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4601",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "chown",
+                    "slug": "using-linux__chown_md",
+                    "sequence_num": 1600,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/chown.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "chown\n\n```bash\ntouch somefile.txt # somefile.txt naam ki file create karo\nls -l somefile.txt # somefile.txt file ki permissions dekho\nchown root:root somefile.txt # somefile.txt file ki permissions root ko de do\nls -l somefile.txt\n```\n```bash\nchown aapkausername:aapkausername somefile.txt\nsudo chown aapkausername:aapkausername somefile.txt\n```\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4604",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "chmod",
+                    "slug": "using-linux__chmod_md",
+                    "sequence_num": 1700,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/chmod.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "chmod\n\n```bash\ntouch random.txt            # random.txt naam ki file create karo\nls -l random.txt            # random.txt file ki permissions dekho\n\nchmod 755 random.txt\nls -l random.txt\n\nchmod g+w random.txt\nls -l random.txt\n\nchmod o+x random.txt\nls -l random.txt\n\nchmod g-r random.txt\nls -l random.txt\n```\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4598",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "top",
+                    "slug": "using-linux__top_md",
+                    "sequence_num": 1800,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/top.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "Top\n\n```bash\ntop\n```\nIsmei aap aapke computer mei jo jo resources kitna kitna use ho rahe hai, yeh dekh paate hai.\n\n\n\n```bash\nsudo apt install htop\n```\nKar kar aap `htop` naam ka tool install kar sakte hai\n\n\n\n```bash\nhtop\n```\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4608",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "editors",
+                    "slug": "using-linux__editors_md",
+                    "sequence_num": 1900,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/editors.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "Aapke system mei default `editor` \n\n\n\n`gedit` hai.\n\n\n\njisko aap \n\n\n\n```bash\ngedit\n```\nor\n\n\n\n```bash\ngedit ~/Desktop/newfile.txt\n```\nkar kar khol sakte ho.\n\n\n\nAise hi\n\n\n\n```bash\nsubl #Sublime Text\nnano \ncode #Visual Studio Code\nvim\n```\nbhi aap use kar sakte ho.\n\n\n\n`nano` and `vim` - `terminal` ke andar se hi kaam karte hai. Thoda bahut `nano` aapko aana chahiye, jisse ki baar baar aapko `terminal` ke bahar na jaana pade.\n\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4610",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "which",
+                    "slug": "using-linux__which_md",
+                    "sequence_num": 2000,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/which.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "which\n\n`which` command ka use kar kar aap dekh sakte hai, ki jo `executable` ya `program` aap `terminal` par `run` ya `execute` kar rahe hai, woh aapke computer mei kaha par `save`d hai. \n\n\n\njaise\n\n\n\n```bash\n\nwhich ls\nwhich mkdir\nwhich cat\nwhich less\nwhich tail\nwhich curl\nwhich git\n```\nObserve karein ki aapke programs kaha par stored hai.\n\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4594",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "bin-folder",
+                    "slug": "using-linux__bin-folder_md",
+                    "sequence_num": 2100,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/bin-folder.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "/usr/bin folder\n\n`/usr/bin` folder in linux isn't the `recycle bin` jo shayad aapne kabhi windows mei dekha hoga\n\n\n\n`bin` ka yaha matlab `binary files` se hota hai. jo aapke programs hai, jo `execute` kiye ja sakte hai linux ke alawa, woh yaha par store hote hai.\n\n\n\n```bash\ncd /usr/bin\nls\n```\nDekhiye kya aapko koi familiar names dikhayi de rahe hai?\n\n\n\nIss folder mei jo bhi `executable` `files` hongi, woh aap kahi se bhi sirf uss `file` ka naam likh kar `execute` kar sakte ho. Hum aage aisa ek program banayenge.\n\n\n\nAise hi\n\n\n\n```bash\ncd /bin\nls\n```\nke contents ko samajh kar, observe kariye, ki kya contents hai, aur in mei se koi `commands/programs/executables` aapne kabhi use kiye hai kya?\n\n\n\nNote:\nJo bhi `file` `executable` hogi, uss `file` ki permission mei aapko 'x' character dikhega `ls -l` karnei par.\n\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4597",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "apna-program-banaye",
+                    "slug": "using-linux__apna-program-banaye_md",
+                    "sequence_num": 2200,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/apna-program-banaye.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "Apna Program Banana Seekhte hai\n\nEk bahut simple si `file` banao:\n\n\n\n```bash\ntouch meraprogram\n```\nAb iss `file` ko apni pasand ke `editor` se khol kar, kuch content daalte hai\n\n```bash\necho \"Yeh mera program hai\"\necho \"Jab mai ismei code add karunga, toh mera program bada ho jayega\"\n```\nAb aap iss program ko `execute` karne ki permissions de\n\n\n\n```bash\nchmod +x meraprogram\n```\nAb iss program ko aap, `/usr/bin` directory mei move kar de. Yaha move karne se, yeh program kahi se bhi aap `execute` kar payenge.\n\n\n\n```bash\nmv meraprogram /usr/bin/\n```\nAb aap apne program ko `execute` kar sakte ho\n\n```bash\nmeraprogram\ncd ~/Desktop\nmeraprogram\ncd / \nmeraprogram\n```\nAap apna program kahi se bhi `execute` kar paoge.\n\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4609",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "executable-in-python",
+                    "slug": "using-linux__executable-in-python_md",
+                    "sequence_num": 2300,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/executable-in-python.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "Aap `python` ka use kar kar bhi ek execu`tab`le program bana sakte ho. Uske liye, aapko\n\n\n\n```bash\n#!/usr/bin/python\n```\nline ko apni `file` mei sabse pehli line mei daalna hoga.\n\n\n\nEk example ke through dekhte hai.\n\n\n\n```bash\ntouch merapythonprogram\n```\nAb iss `file` ko apni pasand ke `editor` se khol kar, kuch content daalte hai\n\n\n\n"
+                         },
+                         {
+                              "type": "python",
+                              "value": {
+                                   "code": "#!/usr/bin/python\nprint \"Yeh mera PYTHON program hai\"\nprint \"Jab mai ismei PYTHON KA code add karunga, toh mera program ANACONDA ban jayega\"",
+                                   "testCases": []
+                              }
+                         },
+                         {
+                              "type": "markdown",
+                              "value": "\n\nAb aap iss program ko `execute` karne ki permissions de\n\n\n\n```bash\nchmod +x merapythonprogram\n```\nAb iss program ko aap, `/usr/bin` directory mei move kar de. Yaha move karne se, yeh program kahi se bhi aap `execute` kar payenge.\n\n\n\n```bash\nsudo mv merapythonprogram /usr/bin/\n```\nAb aap apne program ko `execute` kar sakte ho\n\n```bash\nmerapythonprogram\ncd ~/Desktop\nmerapythonprogram\ncd / \nmerapythonprogram\n```\nAap apna program kahi se bhi `execute` kar paoge.\n\n"
+                         }
+                    ]
+               },
+               {
+                    "id": "4595",
+                    "parent_exercise_id": null,
+                    "course_id": "63",
+                    "name": "bash",
+                    "slug": "using-linux__bash_md",
+                    "sequence_num": 2400,
+                    "review_type": "manual",
+                    "submission_type": null,
+                    "github_link": "https://github.com/navgurukul/newton/tree/master/using-linux/bash.md",
+                    "solution": null,
+                    "content": [
+                         {
+                              "type": "markdown",
+                              "value": "`terminal`, `bash`, `shell` ko hum usually ek doosre ki jagah par istemaal kar dete hai. \n\n\n\n`bash` ki apni ek language hota hai, jo woh samajhta hai. Jaise yeh ek valid `bash` program hai\n\n\n\n```bash\nwhile [ 1==1 ];\ndo\n    echo \"hello\";\n    sleep 1;\ndone;\n```\n`bash` mei aap woh sab kar sakte ho jo aap `python` ya kisi aur programming language mei kar sakte ho.\n\n\n\n`.bashrc` `file` mei aap `bash` mei programming kar sakte ho. Toh dekha jaye, toh aap kaafi complicated cheezein kar sakte ho `.bashrc` mei kuch bhi likh kar.\n\n"
+                         }
+                    ]
+               }
+          ]
+     }
+}
